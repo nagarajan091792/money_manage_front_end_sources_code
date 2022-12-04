@@ -13,7 +13,7 @@ function Login() {
     },
     onSubmit: async (values) => {
       try {
-        const login = await axios.post(`${config.api}/`, values);
+        const login = await axios.post(`${config.api}`, values);
         alert(login.data.message);
         localStorage.setItem("react_app_token", login.data.token);
         localStorage.setItem("profile", login.data.profile);
