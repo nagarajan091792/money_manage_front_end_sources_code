@@ -1,6 +1,3 @@
-
-
-
 import React, { useEffect } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
@@ -84,7 +81,6 @@ function Expenseedit() {
                  },
                }
              );
-             alert("Update Successfully")
               navigate("/portal/expenselist");
             } catch (error) {
              console.log(error);
@@ -232,7 +228,7 @@ function Expenseedit() {
           <div className="row">
             <div className="col-lg-4">
               <div className="form-group">
-                <input type={"submit"} className="btn btn-primary" >Update</input>
+                <input type={"submit"} className="btn btn-primary" />
               </div>
             </div>
           </div>
