@@ -34,7 +34,7 @@ function Expenselist() {
         <thead>
           <tr>
             <th scope="col">S.No</th>
-            <th scope="col">Title</th>
+            
             <th scope="col">Description</th>
             <th scope="col">Date And Time</th>
             <th scope="col">Catagory</th>
@@ -48,7 +48,7 @@ function Expenselist() {
             return (
               <tr>
                 <th scope="row">{index + 1}</th>
-                <td>{e.title}</td>
+                
                 <td>{e.description}</td>
                 <td>{e.dateandtime}</td>
                 <td>{e.catagory}</td>
