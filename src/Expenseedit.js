@@ -228,7 +228,7 @@ function Expenseedit() {
           <div className="row">
             <div className="col-lg-4">
               <div className="form-group">
-                <input type={"submit"} className="btn btn-primary" />
+                <button type={"submit"} className="btn btn-primary" >Update</button>
               </div>
             </div>
           </div>
